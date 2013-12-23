@@ -9,7 +9,7 @@ object General {
     version := "0.1",
     versionCode := 0,
     scalaVersion := "$scala_version$",
-    platformName in Android := "android-$api_level$",
+    platformName in Android := "android-$target_api_level$",
     javacOptions ++= Seq("-encoding", "UTF-8", "-source", "1.6", "-target", "1.6")
   )
 
