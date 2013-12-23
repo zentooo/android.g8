@@ -25,7 +25,7 @@ object General {
     AndroidManifestGenerator.settings ++
     AndroidMarketPublish.settings ++ Seq (
       keyalias in Android := "change-me",
-      libraryDependencies += "org.scaloid" %% "scaloid" % "2.1-8"
+      libraryDependencies += "org.scaloid" %% "scaloid" % "2.5"
     )
 }
 
