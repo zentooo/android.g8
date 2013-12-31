@@ -1,1 +1,1 @@
-See [jberkel/android-app.g8](https://github.com/jberkel/android-app.g8).
+g8 template for https://github.com/pfn/android-sdk-plugin
